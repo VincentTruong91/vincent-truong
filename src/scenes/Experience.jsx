@@ -62,12 +62,17 @@ const Experience = () => {
 };
 const experienceData = [
   {
-    date: "Sept. 2023 - Current",
+    date: "Nov. 2023 - Mar. 2024",
+    position: "Web Development Intern",
+    description: "Assists staff and other interns with digital and sketched wireframes and figma designs. Create task flows and high-fidelity mockups with figma on the blog page, newletter popup page, and products page. I also got to assist other web development interns and journalism interns on providing them assistance to create meaningful pages that connects users with EEL company culture, raising 700+ users within a month from launch.",
+  },
+  {
+    date: "Sept. 2023 - Dec. 2023",
     position: "Institutional Research Intern",
     description: "Assists staff with data tasks (e.g. entry, cleaning, collection, coding, analysis, web design, visualization, presentation) on the computer using Excel, and/or other software. Other software Includes PowerBI, Python, R, Tableau, etc. Assist in producing, editing, and proofreading professional research documents (e.g. research reports, literature searches) on the computer using Word. As appropriate given skill set, assists staff in research design and data collection. Perform general office tasks including organizing incoming data requests, emailing correspondence, updating the IR website and other digital platforms.",
   },
   {
-    date: "Aug. 2023 - Current",
+    date: "Aug. 2023 - Nov. 2023",
     position: "Engineering TA",
     description: "Currently working as a teacher assistant in EGR110 to help students work on labs and support their preparations for upcoming experimental projects. Labs consist of using a multimeter to measure voltages of batteries and generators and ohms of resistors, finding current within a created circuit, understanding how to use Arduino IDE, how to use Autodesk Inventor, experimentation of different truss structures/patterns, etc. In the end, I will also support students along their journey toward making their draft and finalized windmill with light indicators (depending on how much energy is being received) as their project for this class.",
   },

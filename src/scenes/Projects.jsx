@@ -10,8 +10,8 @@ const Projects = () => {
   const projectData = [
     {
       imageSrc: 'assets/uxui-showcase.png',
-      title: 'UX/UI Project Case Project',
-      description: 'This includes Backus Agrilabs Case Study, wireframe prototyping for Backus AgriLabs and EEL Energy Solutions and Technologies, personal portfolio, and IR Data Visualization design. Refer to the button UX/UI Projects at the HOME page to see my UX Research and UI designs!',
+      title: 'UX/UI Case Study Site',
+      description: 'This includes Backus Agrilabs Case Study, wireframe prototyping for Backus AgriLabs and EEL Energy Solutions and Technologies, personal portfolio, and IR Data Visualization design. Refer to the link "UX/UI Case Study Site" at the HOME page to see my UX Research and UI designs!',
     },
     {
       imageSrc: 'assets/IR intern screenshot.png',
