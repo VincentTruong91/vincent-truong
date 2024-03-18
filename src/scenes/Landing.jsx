@@ -61,6 +61,8 @@ const Landing = ({ setSelectedPage }) => {
                 <div className="flex gap-8 font-playfair">
                     <a target="_blank" className="hover:text-blue text-xl" href="https://www.linkedin.com/in/vincent-truong-885b7a234/">LinkedIn</a>
                     <a target="_blank" className="hover:text-red text-xl" href="https://github.com/VincentTruong91">Github</a>
+                    <a target="_blank" className="hover:text-green text-xl" href="https://vtruonguxui.webflow.io/">UX/UI Project Case Study</a>
+
                 </div>
             </motion.div>
         </div>
