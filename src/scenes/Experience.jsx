@@ -24,7 +24,7 @@ const Experience = () => {
           </p>
           <LineGradient width="w-4/3" />
           <p className="mt-10 mb-7 font-playfair text-2xl">
-            My experiences include working and volunteering outside of college and volunteer work inside of college.
+            My experiences include working for companies and organization, volunteer experience outside of college, as well as research experience within institutional environments.
           </p>
         </motion.div>
       </div>
@@ -61,6 +61,11 @@ const Experience = () => {
   );
 };
 const experienceData = [
+  {
+    date: "May 2024 - Current",
+    position: "Innovation Engineering Intern",
+    description: "Worked on CI/CD pipeline and TDD in Python, Jenkins, and C to fix software internal tools and errors. I also implemented version identification on truck displays and build artifacts for Test Engineers and Software Developers. I utilized CANalyzer and CAN bus knowledge to analyze distance data and validate the capabilities of different LiDAR sensors. My experience handling DVPR (design verification plan and report) firmware testing with +280 electrical and software tests on different LiDAR sensors to report improvements or defects. I also added embedded software features and testing with C, Unity, and Keil uVision to fix truck telemetry issues. Telemetry is a system that has nodes (sensors or components of the truck) that collect real-time data and communicate with each other in order to improve safety.",
+  },
   {
     date: "Nov. 2023 - Mar. 2024",
     position: "Web Development Intern",

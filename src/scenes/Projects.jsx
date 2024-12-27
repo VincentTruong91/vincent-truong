@@ -9,6 +9,16 @@ const Projects = () => {
   // Define an array of data for each project pair
   const projectData = [
     {
+      imageSrc: 'assets/starcraft-ai.PNG',
+      title: 'Starcraft AI',
+      description: 'The goal is to create an AI bot powered by machine learning that can play the game (Starcraft) for us. The project has to be extensible and well maintained for other capstone teams to continue working on. The premise of the game is to collect resources, expand your own base, scout the enemy base, and ultimately eliminate all of the opponents buildings.',
+    },
+    {
+      imageSrc: 'assets/up-robotics.jpg',
+      title: 'UP Lunabotics Robotics',
+      description: 'Mainly worked on the controls of the robot, specifically tasked to handle enconders of the robot attached to the ends of the wheels that can change the speed of the robot. Also help setup the drivers (sabertooth) and the connectivity of the raspberry pi via router through SSH.',
+    },
+    {
       imageSrc: 'assets/uxui-showcase.png',
       title: 'UX/UI Case Study Site',
       description: 'This includes Backus Agrilabs Case Study, wireframe prototyping for Backus AgriLabs and EEL Energy Solutions and Technologies, personal portfolio, and IR Data Visualization design. Refer to the link "UX/UI Case Study Site" at the HOME page to see my UX Research and UI designs!',

@@ -9,7 +9,7 @@ const Landing = ({ setSelectedPage }) => {
     <section id="home" className="md:flex md:justify-between md:items-center md:h-full gap-8 md:pt-0 pt-20">
 
         {/*IMAGE SECTION */}
-        <div className="flex justify-center basis-3/5 z-10 mt-16 md:mt-12">
+        <div className="flex justify-center basis-3/5 z-10 mt-10 md:mt-12">
             {isAboveMediumScreens ? (
                 <img alt="profile" src="assets/profile-image1.png" className="z-10 w-full md:pr-20"
                 />
@@ -28,7 +28,10 @@ const Landing = ({ setSelectedPage }) => {
                 </p>
 
                 <p className="mt-5 mb-7 text-lg text-center md:text-start">
-                This portfolio the created using Tailwind, React, Framer-Motion, React Hook Form, Components, Git, Github, and Vercel. I've incorporated my Web Development, Deployment, and UI/UX Design skills with the help of Figma for my portfolio.
+                This portfolio the created using Tailwind, React, Framer-Motion, React Hook Form, Components, Git, Github, and Vercel.
+                </p>
+                <p className="mt-5 mb-7 text-lg text-center md:text-start">
+                I have worked with multiple disciplines on various projects; game design, web development, Internet of Things, Robotics, and embedded software.
                 </p>
             </motion.div>
 
