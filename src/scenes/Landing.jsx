@@ -45,12 +45,7 @@ const Landing = ({ setSelectedPage }) => {
                 >
                     Contact Me
                 </AnchorLink>
-                <a href="https://www.up.edu/ir/institutional-data/undergraduate-demographics.html" 
-                 target="_blank" className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5">
-                    <div className="bg-brown hover:text-yellow transition duration-500 q-full h-full flex items-center justify-center font-playfair px-10">
-                    IR Intern
-                    </div>
-                </a>
+                
                 <a href="https://www.figma.com/file/iEUNb4GQfc5PGY4q0kY7Oh/Vincent-Truong's-Portfolio-Design?type=design&node-id=22%3A223&mode=design&t=V4Wi8SR7RNaH8wBw-1" 
                  target="_blank" className="rounded-r-sm bg-gradient-rainblue py-0.5 pr-0.5">
                     <div className="bg-blue hover:bg-green text-black transition duration-500 q-full h-full flex items-center justify-center font-playfair px-10">
@@ -64,7 +59,6 @@ const Landing = ({ setSelectedPage }) => {
                 <div className="flex gap-8 font-playfair">
                     <a target="_blank" className="hover:text-blue text-xl" href="https://www.linkedin.com/in/vincent-truong-885b7a234/">LinkedIn</a>
                     <a target="_blank" className="hover:text-red text-xl" href="https://github.com/VincentTruong91">Github</a>
-                    <a target="_blank" className="hover:text-green text-xl" href="https://vtruonguxui.webflow.io/">UX/UI Case Study Site</a>
 
                 </div>
             </motion.div>

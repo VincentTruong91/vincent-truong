@@ -22,16 +22,22 @@ const Projects = () => {
       imageSrc: 'assets/uxui-showcase.png',
       title: 'UX/UI Case Study Site',
       description: 'This includes Backus Agrilabs Case Study, wireframe prototyping for Backus AgriLabs and EEL Energy Solutions and Technologies, personal portfolio, and IR Data Visualization design. Refer to the link "UX/UI Case Study Site" at the HOME page to see my UX Research and UI designs!',
+      buttonText: 'Learn More',
+      buttonLink: 'https://vtruonguxui.webflow.io/',
     },
     {
       imageSrc: 'assets/IR intern screenshot.png',
       title: 'IR Intern Project',
       description: 'This project includes utilizing PowerBi, Qualatics Survey, Web Design with deployment, and Python to manage data and have it appear on the University of Portland website.',
+      buttonText: 'Learn More',
+      buttonLink: 'https://www.up.edu/ir/institutional-data/undergraduate-demographics.html',
     },
     {
       imageSrc: 'assets/backus agrilabs screenshot.png',
       title: 'Web Design/Development for Backus Agrilabs',
       description: 'Developed a prototype website for a startup research company called Backus Agrilabs. The company\'s mission is to reduce Oregon food deserts within the Oregon metropolitan area - building a platform is one of the fundamental steps to efficiently keep track of the plant\'s status in a user-friendly interface without purely looking at a database. This also includes user authentication and account creation.',
+      buttonText: 'Learn More',
+      buttonLink: 'https://vtruonguxui.webflow.io/backus-agrilab',
     },
     {
       imageSrc: 'assets/fit guide screenshot.png',
@@ -102,6 +108,15 @@ const Projects = () => {
               <div className="w-full p-8 mx-auto"> {/* Center the text */}
                 <h1 className="text-4xl font-bold">{project.title}</h1>
                 <p className="text-lg mt-4">{project.description}</p>
+                {project.buttonText && project.buttonLink && (
+                  <a
+                    href={project.buttonLink}
+                    target="_blank"
+                    className="mt-4 inline-block py-2 px-4 text-white font-semibold border-2 border-white hover:text-green text-xl transition duration-300"
+                  >
+                    {project.buttonText}
+                  </a>
+                )}
               </div>
             </>
           ) : (
@@ -117,6 +132,15 @@ const Projects = () => {
               <div className="w-full p-8 text-center mx-auto"> {/* Center the text */}
                 <h1 className="text-4xl font-bold">{project.title}</h1>
                 <p className="text-lg mt-4">{project.description}</p>
+                {project.buttonText && project.buttonLink && (
+                  <a
+                    href={project.buttonLink}
+                    target="_blank"
+                    className="mt-4 inline-block py-2 px-4 text-white font-semibold border-2 border-white hover:text-green text-xl transition duration-300"
+                  >
+                    {project.buttonText}
+                  </a>
+                )}
               </div>
             </>
           )}
