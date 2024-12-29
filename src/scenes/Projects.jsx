@@ -21,7 +21,7 @@ const Projects = () => {
     {
       imageSrc: 'assets/uxui-showcase.png',
       title: 'UX/UI Case Study Site',
-      description: 'This includes Backus Agrilabs Case Study, wireframe prototyping for Backus AgriLabs and EEL Energy Solutions and Technologies, personal portfolio, and IR Data Visualization design. Refer to the link "UX/UI Case Study Site" at the HOME page to see my UX Research and UI designs!',
+      description: 'This includes Backus Agrilabs Case Study, wireframe prototyping for Backus AgriLabs and EEL Energy Solutions and Technologies, personal portfolio, and IR Data Visualization design.',
       buttonText: 'Learn More',
       buttonLink: 'https://vtruonguxui.webflow.io/',
     },
